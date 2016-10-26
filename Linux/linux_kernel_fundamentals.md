@@ -2,6 +2,12 @@
 
 *Information taken from [Linux kernel Fundamentals](https://www.linkedin.com/learning/linux-kernel-fundamentals/) course.*
 
+## Contents
+* [Charpter 1. Surveying the Linux Kernel](#1-surveying-the-linux-kernel)
+* [Charpter 2. Booting](#2-booting)
+* [Charpter 3. Loadable Kernel Modules](#3-working-with-loadable-kernel-modules)
+
+
 ## 1. Surveying the Linux Kernel
 
 ### What Is The Linux Kernel?

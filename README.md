@@ -7,3 +7,7 @@ This project is meant to give a brief overview of data structures and algorithms
 ## Contents
 
 - [Linux Kernel Fundamentals](Linux/linux_kernel_fundamentals.md)
+- [Foundations of Networking: Networking Basics](Networking/foundations_of_networking.md)
+- [Troubleshooting Network Connectivity](Networking/network_troubleshooting.md)
+- [IP Subnetting](Networking/subnets.md)
+

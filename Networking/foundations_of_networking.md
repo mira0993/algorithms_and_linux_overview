@@ -6,7 +6,7 @@
 * [Chapter 1. Network Topologies](#1-network-topologies)
 * [Chapter 2. Network implementations](#2-network-implementations)
 * [Chapter 3. OSI Model](#3-osi-model)
-* [Chapter 4. TCP/IP Suite](#3-tcp-ip-suite)
+* [Chapter 4. TCP/IP Suite](#4-tcpip-suite)
 
 ## 1. Network Topologies
 ### Logical vs Physical Topologies

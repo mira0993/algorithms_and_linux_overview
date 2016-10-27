@@ -3,7 +3,7 @@
 *Information taken from [Troubleshooting Network Connectivity](https://www.linkedin.com/learning/troubleshooting-network-connectivity) course.*
 
 ## Contents
-* [Chapter 1. Data Link and Network Layer](#1-Data-link-and-network-layers)
+* [Chapter 1. Data Link and Network Layer Troubleshooting](#1-data-link-and-network-layer-troubleshooting)
 * [Chapter 2. Transport Layer Troubleshooting](#2-transport-layer-troubleshooting)
 
 ## 1. Data Link and Network Layer Troubleshooting

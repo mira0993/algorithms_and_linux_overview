@@ -1,4 +1,4 @@
-# Python's Basics
+# Python Basics
 
 ## Contents
 - [Python’s Built-In Classes](#pythons-built-in-classes)

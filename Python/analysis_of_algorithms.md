@@ -59,7 +59,7 @@ For example, an integer word containing `n` bits can represent all the nonnegati
 
 
 
-
-**Data Structures and Algorithms in Python**
-*Goodrich T. Michael, Tamassia Roberto & Goldwasser H. Michael*
-John Wiley & Sons,Inc (2013)
+##### Taken from:
+- **Data Structures and Algorithms in Python**
+- *Goodrich T. Michael, Tamassia Roberto & Goldwasser H. Michael*
+- John Wiley & Sons,Inc (2013)

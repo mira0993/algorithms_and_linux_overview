@@ -1,4 +1,9 @@
-# Python's Basics
+# Python Basics
+
+## Contents
+- [Python’s Built-In Classes](#pythons-built-in-classes)
+- [Iterators and Generators](#iterators-and-generators)
+- [Additional Python Conveniences](#additional-python-conveniences)
 
 ## Python’s Built-In Classes
 A class is immutable if each object of that class has a fixed value upon instantiation that cannot subsequently be changed. For example, the float class is immutable. Once an instance has been created, its value cannot be changed 
@@ -32,11 +37,25 @@ A **generator** is the way to create iterators. It is implemented with a syntax 
 
 As an example, consider the goal of determining all factors of a positive integer. For example, the number `100` has factors `1, 2, 4, 5, 10, 20, 25, 50, 100`. A traditional function might produce and return a list containing all factors, implemented as:
 
-```def factors(n):	results = [ ]	for k in range(1,n+1):		if n % k == 0: 
-			results.append(k)	return results
-```In contrast, an implementation of a generator for computing those factors could be implemented as follows:```def factors(n):	for k in range(1,n+1):		if n % k == 0: 
-			yield k```
-Notice use of the keyword `yield` rather than return to indicate a result. This indicates to Python that we are defining a generator, rather than a traditional function.
+```
+def factors(n):
+	results = [ ]
+	for k in range(1,n+1):
+		if n % k == 0: 
+			results.append(k)
+	return results
+```
+
+In contrast, an implementation of a generator for computing those factors could be implemented as follows:
+
+```
+def factors(n):
+	for k in range(1,n+1):
+		if n % k == 0: 
+			yield k
+```
+
+Notice use of the keyword `yield` rather than return to indicate a result. This indicates to Python that we are defining a generator, rather than a traditional function.
 
 ## Additional Python Conveniences
 
@@ -55,7 +74,20 @@ Python supports similar comprehension syntaxes that respectively produce a set, 
 ```
 * list comprehension
 	[ k k for k in range(1, n+1) ]
-* set comprehension	{ k k for k in range(1, n+1) }
-* generator comprehension	( k k for k in range(1, n+1) )
-* dictionary comprehension	{ k : k k for k in range(1, n+1) }
-```The **generator syntax** is particularly attractive when results do not need to be stored in memory. For example, to compute the sum of the first n squares, the generator syntax, `total = sum(k k for k in range(1, n+1))`, is preferred to the use of an explicitly instantiated list comprehension as the parameter.
+* set comprehension
+	{ k k for k in range(1, n+1) }
+* generator comprehension
+	( k k for k in range(1, n+1) )
+* dictionary comprehension
+	{ k : k k for k in range(1, n+1) }
+```
+
+The **generator syntax** is particularly attractive when results do not need to be stored in memory. For example, to compute the sum of the first n squares, the generator syntax, `total = sum(k k for k in range(1, n+1))`, is preferred to the use of an explicitly instantiated list comprehension as the parameter.
+
+
+
+
+##### Taken from:
+- **Data Structures and Algorithms in Python**
+- *Goodrich T. Michael, Tamassia Roberto & Goldwasser H. Michael*
+- John Wiley & Sons,Inc (2013)

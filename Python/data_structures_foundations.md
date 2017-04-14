@@ -12,7 +12,7 @@
 * [Chapter 7. Heaps](#7-heaps)
 * [Chapter 8. Graphs](#8-graphs)
 
-##1. Linked Lists
+## 1. Linked Lists
 
 ### Arrays vs Linked Lists
 
@@ -29,7 +29,7 @@
 - When we access a list, we always get the first element. We must access the elements sequentially, we can't jump to a specific element.
 - Adding/removing elements is easier. We just need to adjust the pointers.
 
-##2. Stacks
+## 2. Stacks
  
 - It is a **LIFO (last-in / first-out)** data structure.
 - **Methods:**
@@ -38,7 +38,7 @@
  	- `peek`: Get the value of the element at the top of the stack.  
 
 
-##3. Queues
+## 3. Queues
 
 - It is a **FIFO (first-in / first-out)** data structure.
 - **Methods:**
@@ -55,7 +55,7 @@
 - It is a double-ended Queue
 - It is like having a stack and queue together.You can add/remove elements from the front or the back of the list.
 
-##4. Hash Tables
+## 4. Hash Tables
 
 - It is the way to build associative arrays **(dictionaries in Python)**.
 
@@ -84,7 +84,7 @@
 
 - **Separate chaining** is a technique where each bucket of the array contains a linked list. Once we get into the right bucket, we start looking element by element until we find what we are lokking for.
 
-##5. Set
+## 5. Set
 
 - It is an unordered collection of objects.
 - No index, sequence, or key.
@@ -114,7 +114,7 @@ AttributeError: 'frozenset' object has no attribute 'add'
 
 - **Set implementation with Hash Table**: It passes the object trhough a hash function. The value we get from the hash function is the index where we will store that object.
 
-##6. Trees
+## 6. Trees
 
 - It is a data structure formed by nodes connected in a hierarchiczl order.
 
@@ -152,7 +152,7 @@ AttributeError: 'frozenset' object has no attribute 'add'
  - Scapegoat Trees
  - Splay Tree
 
-##7. Heaps
+## 7. Heaps
 
 - It is used in sorting algorithms (heap sort).
 - Heaps are implemented as Binary Trees.
@@ -189,7 +189,7 @@ Example: Get the childs from node with value 50
 		- right = (2*2) + 2 = 6 => heap[right] = 75
 ```
 
-##8. Graphs
+## 8. Graphs
 
 - It is a collection of nodes where any node can link to any other node and multiple nodes.
 - **Example:** Modeling distances between cities, model a social network.

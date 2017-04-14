@@ -1,1 +1,4 @@
 .DS_Store
+ProjectEuler/
+*.pyc
+*_test*

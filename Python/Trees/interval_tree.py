@@ -161,12 +161,12 @@ class IntervalTree(object):
         return '---- Interval Tree ----\n' + '\n'.join(nodes)
 
 
-intervals = [[15,20], [10,30], [17,24], [5,13], [12,15], [30, 40]]
-
-interval_tree = IntervalTree()
-for interval in intervals:
-    interval_tree.insert(interval)
-
-print(interval_tree)
-print(21,33,interval_tree.query_overlap_intervals(21,33))
-print(14,18,interval_tree.query_overlap_intervals(14,18))
+# intervals = [[15,20], [10,30], [17,24], [5,13], [12,15], [30, 40]]
+#
+# interval_tree = IntervalTree()
+# for interval in intervals:
+#     interval_tree.insert(interval)
+#
+# print(interval_tree)
+# print(21,33,interval_tree.query_overlap_intervals(21,33))
+# print(14,18,interval_tree.query_overlap_intervals(14,18))
